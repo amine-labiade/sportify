@@ -1,0 +1,309 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+
+}
+
+header{
+  text-align: center;
+  color: red;
+  background-color: #E5E2E7;
+  background-image: url(/images/logo/pjimage.jpg);
+  background-size:cover;
+  height: 196px;
+  background-clip: border-box;
+  border-bottom-right-radius: 15px ;
+  border-bottom-left-radius: 15px ;
+  /*margin-bottom: 10px; */
+  margin-left: 10px;
+  margin-right: 10px ;
+}
+
+.holp{
+  opacity: 50%;
+
+}
+.logo{
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 120px;
+}
+footer{
+  background-color:  #FFF;
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+
+main{
+  display: flex;
+}
+
+/*.hii{
+  background-color: lightblue;
+  color: red;
+  opacity: 66%;
+} */
+
+
+.bar{
+  flex: 15% !important ;
+  margin: 10px;
+  background-color: #E5E2E7;
+  padding: 10px;
+  border-radius: 15px;
+}
+#v-pills-tab{
+  margin-top: 40px ;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#btn_1,#btn_2 {
+  margin: 1px;
+}
+
+.content{
+  flex: 85% !important;
+  margin: 10px;
+  background-color: #E5E2E7;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#editor{
+  height: 500px;
+  overflow-y: scroll;
+}
+
+#deletor{
+  height: 500px;
+  overflow-y: scroll;
+}
+
+
+.edt{
+  height: 90px;
+  width: 150px;
+}
+
+input[type="file"].imgupload{
+  display: none;
+}
+
+
+input[type="checkbox"]{
+   display: none;
+}
+
+input[type=checkbox].checkdelete + label  {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: none;
+  color: white;
+}
+
+input[type=checkbox].checkdelete  + label:hover  {
+  background-color: #A99390;
+}
+
+input[type=checkbox]:checked.checkdelete  + label  {
+  background-color: #C43739;
+}
+
+.jumbotron.big{
+  background-color: #E5E2E7;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.jumbotron .smol{
+  overflow-y: scroll ;
+  height: 600px;
+  background-color: #D4EDFF ;
+}
+
+#all-viewing{
+  overflow-y: scroll ;
+  height: 500px;
+}
+
+#bycity-viewing{
+  overflow-y: scroll ;
+  height: 500px;
+}
+
+#bytype-viewing{
+  overflow-y: scroll ;
+  height: 500px;
+}
+
+
+.smthn{
+  background-color: #A7CF8A;
+  color: white ;
+  text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+}
+
+.smthn-c{
+  background-color: #FF6D5B;
+  color: white ;
+  text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+}
+
+.col-6{
+  margin-top: 20px;
+}
+
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start !important;
+}
+
+
+/*.heavy{
+  background-color: #6EA2B8  ;
+  border: none ;
+}
+
+.light{
+  background-color: #82BFD8 ;
+  border: none ;
+}
+  */
+
+
+/*
+.heavy :hover{
+  background-color: #94ADBE !important;
+  border-color: #A24C52;
+}
+
+.light :hover{
+  background-color: #94ADBE !important;
+  border-color: #A24C52;
+}
+*/
+
+/*
+
+.helper1{
+  display: flex;
+  align-self: center;
+}
+*/
+
+.col-6{
+  margin-top: 20px;
+}
+
+.viewtype{
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.viewcity{
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start !important;
+}
+
+.dtp{
+  margin: 20px;
+}
+
+
+
+.card{
+  margin: 30px;
+  background-color: #b02d2d;
+  opacity: 80%;
+  color: white ;
+}
+
+
+
+
+
+
+
+.card:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #B55476;
+  filter: blur(3px);
+}
+
+.card:hover {
+  color: #B55476;
+  box-shadow: 0 0 15px #B55476;
+  text-shadow: 0 0 15px #B55476;
+}
+
+
+.batch-delete{
+  height: 90px;
+  width: 80%;
+  background-color: #D8B6AD;
+}
+
+
+.btn_clicked{
+  background-color:  '#CB5D61';
+  pointer-events: none;
+}
+
+
+
+.input-radio{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Good tricksy */
+input[type=radio] {
+    display: none;
+}
+input[type=radio] + label {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #017BFF;
+  color: white;
+}
+
+input[type=radio] + label:hover {
+  background-color: #034C9F;
+}
+
+input[type=radio]:checked + label {
+  background-color: #00AD45;
+}
+
+
+
+
+
+.rounded-circle {
+  width : 90px ;
+}
